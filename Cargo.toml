@@ -1,0 +1,17 @@
+[package]
+name = "liblcf"
+version = "0.1.0"
+authors = ["Marcel Hellwig <git@cookiesoft.de>"]
+
+[dependencies]
+toml = "0.4"
+serde = "*"
+serde_derive = "*"
+byteorder = "1"
+failure = "0.1"
+failure_derive = "*"
+encoding = "0.2"
+
+#[patch.crates-io]
+#failure = { git="https://github.com/withoutboats/failure/tree/master/failure-1.X" }
+#failure-derive = { git="https://github.com/withoutboats/failure/tree/master/failure-1.X/failure_derive" }

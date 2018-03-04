@@ -10,5 +10,5 @@ extern crate serde;
 #[macro_use] extern crate serde_derive;
 
 pub mod lcf_reader;
-pub mod rgb;
+pub mod rpg;
 pub mod traits;
